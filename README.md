@@ -1,10 +1,17 @@
-- 👋 Hi, I’m @hamzarasalkar
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+#include <stdio.h>
+void main()
+{
+int i;
+i=4;
+printf("value of i =%d\n",i);
+++i;
+printf("value of i is %d \n",i);
+printf("---------\n");
 
-<!---
-hamzarasalkar/hamzarasalkar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int x;
+x=i++;
+printf("value of i= %d \n",i);
+printf("value of x = %d\n",x);
+
+return 0;
+}
