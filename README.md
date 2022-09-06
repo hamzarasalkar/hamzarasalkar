@@ -15,3 +15,18 @@ printf("value of x = %d\n",x);
 
 return 0;
 }
+
+
+// Online C compiler to run C program online
+// Hamza rasalkar
+#include <stdio.h>
+int main() {
+const float pi=3.14;
+float r;
+float A;
+printf("enter radius:\n");
+scanf("%f",&r);
+A=pi*r*r;
+printf("Area is %f",A);
+
+}
