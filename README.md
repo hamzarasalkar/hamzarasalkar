@@ -30,3 +30,14 @@ A=pi*r*r;
 printf("Area is %f",A);
 
 }
+
+
+#include <stdio.h>
+
+int main()
+{
+int a=5;
+printf("value of a %d \n",a);
+a++;
+printf("value of a %d",a);
+}
