@@ -83,3 +83,25 @@ if(age>=18)
     printf("thankyou");
 }
 }
+
+
+
+
+
+// Online C compiler to run C program online
+#include <stdio.h>
+// if or else statement
+// eligible for vote
+void main() {
+int age;
+printf("enter your age\n");
+scanf("%d",&age);
+if(age>=18)
+{
+    printf("you are eligible for vote\n");
+}
+else
+{
+    printf("you are not eligible for vote\n");
+}
+}
