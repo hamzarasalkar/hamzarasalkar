@@ -1,0 +1,38 @@
+/*write a program to add,substraction,multiply and divide
+two numbers accepted from user by using switch*/
+#include <stdio.h>
+void main(){
+int n1,n2,add,sub,mul,div,option;
+printf("enter first number n1=");
+scanf("%d",&n1);
+printf("enter second number n2=");
+scanf("%d",&n2);
+printf("n menu");
+printf("\n 1:Addition");
+printf("\n 2:substraction");
+printf("\n 3:multiplication");
+printf("\n 4:Division");
+printf("enter any one option(1=4)");
+scanf("%d",&option);
+switch(option)
+{
+case 1:
+add=n1+n2;
+printf("addition of n1&n2 is %d",add);
+break;
+case 2:
+sub=n1-n2;
+printf("substraction of n1&n2 is %d",sub);
+break;
+case 3:
+mul=n1*n2;
+printf("multiplication= %d",mul);
+break;
+case 4:
+div=n1/n2;
+printf("division= %d",div);
+break;
+default:
+printf("invalid option");
+}
+}
